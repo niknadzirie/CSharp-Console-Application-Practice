@@ -1,7 +1,7 @@
 ﻿// Creating To Do Application on Console
 
 // Welcome message
-Console.WriteLine("Welcome To To-Do Application!\n");
+Console.WriteLine("***** Welcome To To-Do Application! *****\n");
 
 // Main menu
 Console.WriteLine("Main Menu: \n");
@@ -12,4 +12,7 @@ Console.WriteLine("4. Delete To-Do List\n");
 
 // Wait for user to select the menu
 Console.Write("Enter Menu Number: ");
-Console.ReadLine();
+string userOption = Console.ReadLine();
+
+Console.Write("\nYou have select: ");
+Console.WriteLine(userOption);
