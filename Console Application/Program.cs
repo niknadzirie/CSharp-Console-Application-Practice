@@ -83,17 +83,35 @@
 
 
 
-// Code challenge from MS Learn
-string myName = "Bob";
-int myAge = 3;
-double myTemperature = 34.4;
+// // Code challenge from MS Learn
+// string myName = "Bob";
+// int myAge = 3;
+// double myTemperature = 34.4;
 
-//Console.WriteLine($"Hello, {myName}! You have {myAge} messages in your inbox. The temperature is {myTemperature} celcius.");
+// //Console.WriteLine($"Hello, {myName}! You have {myAge} messages in your inbox. The temperature is {myTemperature} celcius.");
 
-Console.Write("Hello, ");
-Console.Write(myName);
-Console.Write("! You have ");
-Console.Write(myAge);
-Console.Write(" messages in your inbox. The Temperature is ");
-Console.Write(myTemperature);
-Console.Write(" celcius.");
+// Console.Write("Hello, ");
+// Console.Write(myName);
+// Console.Write("! You have ");
+// Console.Write(myAge);
+// Console.Write(" messages in your inbox. The Temperature is ");
+// Console.Write(myTemperature);
+// Console.Write(" celcius.");
+
+
+
+
+
+// Converting Data Type
+
+// int myInt = 5;
+// double myDouble = myInt;
+
+// Console.WriteLine(myDouble);
+
+// string myString = "354dsfs";
+// int myInt = Convert.ToInt32(myString);
+
+// Console.WriteLine(myInt);
+
+decimal myDecimal = 3.142m;
